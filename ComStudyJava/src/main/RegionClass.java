@@ -13,7 +13,7 @@ public class RegionClass {
 			if(list[i]>=20&&list[i]<40) {
 				m+=1;
 			}
-			else {
+			if(list[i]>40) {
 				n+=1;
 			}
 		}

@@ -18,11 +18,12 @@ public class SortClass {
 				}
 			}
 		}
-    	System.out.print("成绩最差的是"+arr[0]);
-		System.out.print("成绩最差的是"+arr[n-1]);
-		for (int t=0;i<arr.length ;i++) {
-			System.out.print("排序为"+arr[t]);
+    	
+		System.out.println("排序结果是：");
+		for (int t=0;t<arr.length ;t++) {
+			System.out.print(" "+arr[t]);
 		}
+		System.out.println();
 		
 	
 	}

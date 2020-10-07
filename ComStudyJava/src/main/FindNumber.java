@@ -26,7 +26,7 @@ public class FindNumber {
 	}
 	public int min_num(int a[]) 
 	{ 
-		//min=a[0];
+		min=a[0];
 		return min;
 		
 	}
@@ -53,7 +53,7 @@ public class FindNumber {
 			  ji_sum+=a[i];  
 		  }
 	  }
-		sup=ji_sum/a.length;
+	   jige=ji_sum/a.length;
 		
 		return jige;
 	}	

@@ -1,2 +1,3 @@
-public void Test1{
+package Test;
+public class Test1{
 }

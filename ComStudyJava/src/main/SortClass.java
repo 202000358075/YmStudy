@@ -23,7 +23,7 @@ public class SortClass {
 		for (int t=0;t<arr.length ;t++) {
 			System.out.print(" "+arr[t]);
 		}
-		System.out.println();
+	
 		
 	
 	}

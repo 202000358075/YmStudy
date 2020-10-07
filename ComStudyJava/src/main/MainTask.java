@@ -19,7 +19,8 @@ public class MainTask {
     System.out.println("及格率："+fn.ji_number(a));
     System.out.println("优秀率："+fn.sup_num(a));
     
-    
+    RegionClass rc=new RegionClass();
+	rc.region(a);
     
 	}
 

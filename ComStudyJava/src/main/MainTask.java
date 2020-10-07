@@ -1,14 +1,13 @@
 package main;
 
-import java.util.ArrayList;
-
 public class MainTask {
 	
 	//public static int a[]= {12,23,2,66,34,57,89,90,78,89,99,100};
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 	int a[]= {12,23,2,66,34,57,89,90,78,89,99,100};
-	
+	SortClass s=new SortClass();
+	s.sort(a);
 	
 
     FindNumber fn=new FindNumber();

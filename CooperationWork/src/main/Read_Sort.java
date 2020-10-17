@@ -6,10 +6,10 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 	//读取文件并按成绩排序
-	public class Read_Sort implements Read_Sort_Interface  {
+public class Read_Sort implements Read_Sort_Interface  {
 		Sort_Interface si;
 		
-		public void set_Sort_Interface(Sort_Interface si) {
+	public void set_Sort_Interface(Sort_Interface si) {
 			this.si=si;
 			
 		}
@@ -28,9 +28,6 @@ import java.util.Comparator;
 		  }
 		return num;
 	}
-
-
-	
 
 
 	public int[] sort(int[] array) {

@@ -6,6 +6,5 @@ public interface Sort_Interface {
 	
 	public abstract int[] sort(int[] array);
 
-	//int[] readsort(ArrayList<Person> list);
 
 }

@@ -10,6 +10,7 @@ public class Ave_Max implements Ave_Max_Interface{
 		// TODO Auto-generated method stub
 		
 		float sum1=0,sum2=0,sum3=0;
+		
 		int i;
 		for(i=0;i<stus.size();i++) {
 			sum1+=stus.get(i).getMath();

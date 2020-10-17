@@ -40,6 +40,14 @@ public void setEnglish(int english) {
 public String toString() {
 	return "no=" + no + ", name=" + name + ", math=" + math + ", chinese=" + chinese + ", english=" + english;
 }
-
-
+public Person() {
+	
+}
+public Person(int no, String name, int math, int chinese, int english) {
+	this.no=no;
+	this.name = name;
+	this.math = math;
+	this.chinese=chinese;
+	this.english = english;
+}
 }

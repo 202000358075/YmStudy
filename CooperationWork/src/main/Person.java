@@ -6,6 +6,16 @@ private String name;
 private int math;
 private int chinese;
 private int english;
+public Person() {
+	
+}
+public Person(int no,String name,int math,int chinese,int english) {
+	this.no=no;
+	this.name=name;
+	this.math=math;
+	this.chinese=chinese;
+	this.english=english;
+}
 public int getNo() {
 	return no;
 }

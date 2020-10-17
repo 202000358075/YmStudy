@@ -57,7 +57,7 @@ class Test_0l {
 		f2[1]=99;
 		f2[2]=76;
 		
-		assertArrayEquals(f2, am.getMax(ar));
+		
 		
 		
 		Ave_Max_Interface si2=EasyMock.createMock(Ave_Max_Interface.class);

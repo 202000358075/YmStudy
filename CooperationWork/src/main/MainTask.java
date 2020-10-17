@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class MainTask {
 	
   public static void main(String[] arg) {
-	    String filePath = "E:/git/repository2/CooperationWork/src/data/data.txt";
+	    String filePath = "D:\\¼ÆËã»ú»ù´¡\\GitStudy\\CooperationWork\\src\\data\\data.txt";
 	    ArrayList<Person> list_txt=new ArrayList<Person>();
 
 	    

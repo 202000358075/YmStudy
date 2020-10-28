@@ -11,8 +11,9 @@ public class MainTask {
   public static void main(String[] arg) {
 	    String filePath = "E:/git/repository2/CooperationWork/src/data/data.txt";
 	    ArrayList<Person> list_txt=new ArrayList<Person>();
-	    Ave_Max am=new Ave_Max();
-	    Select select=new Select();
+	    Ave_Max_Interface am=new Ave_Max(); 
+	    //Ave_Max am=new Ave_Max();
+	    Select_Interface select=new Select();
 	    list_txt=readTxt(filePath); 
 	    Person p=new Person();
 	    Read_Sort rs=new Read_Sort();
